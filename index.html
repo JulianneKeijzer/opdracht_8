@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title> Recipes </title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1> Cook by the book</h1>
+    </header>
+
+    <main class="form-box">
+        <h2> Please share your favorite recipe below! </h2>
+        <form name="Contact" method="POST" data-netlify="true">
+            <p>
+                <label>Name: <input type="text" name="name" /></label>
+            </p>
+            <p>
+                <label>Email: <input type="email" name="email" /></label>
+            </p>
+            <p>
+                <label>Telephone number: <input type="tel" name="tel"></label>
+            </p>
+            <p>
+                <label> Date of birth: <input type="date" name="date"></label>
+            </p>
+            <p>
+                <label> Gender:
+                    <label><input type="radio" name="button" />Male</label>
+                    <label><input type="radio" name="button" />Female</label>
+                    <label><input type="radio" name="button" />Other</label>
+                </label>
+            </p>
+            <p>
+                <label> Favorite cuisine:
+                    <label><input type="checkbox" name="checkbox">French</label>
+                    <label><input type="checkbox" name="checkbox">Italian</label>
+                    <label><input type="checkbox" name="checkbox">Spanish</label>
+                    <label><input type="checkbox" name="checkbox">Italian</label>
+                </label>
+            </p>
+            <p>
+                <label>Favorite apron color: <input type="color" name="color"> </label>
+            </p>
+            <p>
+                <label>Biography: <textarea name="message"></textarea></label>
+            </p>
+            <p>
+                <label>Upload your latest recipe: <input type="file" name="file" /></label>
+            </p>
+            <p>
+                <label>URL to recipe website <input type="url" name="url"></label>
+            </p>
+            <p>
+                <button type="reset">Reset</button>
+            </p>
+            <p>
+                <button type="submit">Submit</button>
+            </p>
+        </form>
+        <img width="300" src="sushi (2).jpg">
+    </main>
+</body>
+
+</html>

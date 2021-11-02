@@ -1,0 +1,30 @@
+header {
+    border:5px ridge salmon;
+    padding: 20px;
+    margin: 10px 450px;
+    background-color: seashell;
+}
+
+body {
+    color:salmon;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+    font-style: bold;
+    text-align: center;
+    font-style: italic;
+}
+
+h2 {
+    font-size: 15;
+}
+
+.form-box {
+    border:3px ridge salmon;
+    padding: 20px;
+    margin: 10px 450px;
+    background-color: seashell;
+    text-align: center;
+}
